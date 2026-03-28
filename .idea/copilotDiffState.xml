@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/resources/application.properties" />
+              <option name="originalContent" value="spring.application.name=url_shortner&#10;&#10;port=8080&#10;&#10;#Datasource&#10;spring.datasource.url=jdbc:postgresql://localhost:5432/arunjugran&#10;spring.datasource.username=arunjugran&#10;spring.datasource.password=&#10;spring.jpa.show-sql=true&#10;spring.datasource.driver-class-name=org.postgresql.Driver&#10;spring.jpa.hibernate.ddl-auto=update&#10;" />
+              <option name="updatedContent" value="spring.application.name=url_shortner&#10;&#10;port=8080&#10;&#10;#Datasource&#10;spring.datasource.url=jdbc:postgresql://localhost:5432/arunjugran&#10;spring.datasource.username=arunjugran&#10;spring.datasource.password=&#10;spring.jpa.show-sql=true&#10;spring.datasource.driver-class-name=org.postgresql.Driver&#10;spring.jpa.hibernate.ddl-auto=update&#10;&#10;# Swagger UI &amp; OpenAPI Configuration&#10;springdoc.swagger-ui.enabled=true&#10;springdoc.api-docs.path=/v3/api-docs&#10;springdoc.swagger-ui.path=/swagger-ui.html&#10;springdoc.swagger-ui.operations-sorter=method&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
