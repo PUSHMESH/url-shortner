@@ -3,7 +3,6 @@ package com.jugran.arun.url_shortner.entity;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
-import org.hibernate.annotations.PartitionKey;
 
 import java.time.LocalDateTime;
 
