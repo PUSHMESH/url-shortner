@@ -1,25 +1,19 @@
 package com.jugran.arun.url_shortner.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import org.hibernate.annotations.PartitionKey;
 
 import java.time.LocalDateTime;
 
-/**
- * Entity representing a shortened URL
- */
 @Data
 @Entity
 @Table(name = "URL_SHORTENER", indexes = {
-    @Index(name = "idx_short_url", columnList = "short_url", unique = true),
+    @Index(name = "idx_short_url", columnList = "short_url"),
     @Index(name = "idx_user_id", columnList = "user_id")
 })
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class URLShortener {
     
     @Id
@@ -56,4 +50,3 @@ public class URLShortener {
     @Column(name = "custom_alias")
     private String customAlias;
 }
-
